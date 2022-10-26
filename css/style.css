@@ -1,11 +1,15 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    
     font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    outline: 1px solid red;
 }
 html{
+    position: absolute;
+    background: #FFFFFF;
     width: 1024px;
-    height: 1807px;
 }
 /* top */
 
@@ -16,13 +20,12 @@ html{
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-/* identical to box height */
-
-
-color: #F3F3F3;
+    color: #F3F3F3;
     background: #222222;
 }
 /* header */
+
+
 header{
     color: rgb(255, 255, 255);
 }
@@ -34,6 +37,14 @@ div.nav-menu{
     font-weight: 400px;
     line-height: 15px;
     font-style: normal;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 15px;
+    font-style: normal;
+    color: #F3F3F3;
 }
 div.nav-menu img{
     width: 15px;
@@ -50,18 +61,121 @@ div.nav-logo span{
     color:rgba(60, 35, 19, 1);
 }
 /* main */
+
 .slide{
+    position: relative;
+}
+.slide-background{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
-    width: 1024px;
+    position: relative;
+    background-size: cover;
+    width: 1025px;
     height: 409px;
-    top: 81px;
+    
 }
 .rectangle5{
+    position: absolute;
     width: 365px;
     height: 54px;
     left: 648px;
     top: 237px;
-
     background: #FFFFFF;
     border-radius: 5px;
+    padding: 9px 10px 10px;
+}
+.rectangle5 span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+
+color: #3C2313;
+}
+.section-2{
+    display:flex;
+}
+.section-2 article{
+    background-color:#E5E5E5;
+}
+/* FOOTER */
+/* SUSCRIBCION */
+
+
+footer div.suscribcion{
+    background-color: rgba(240, 168, 62, 1);
+    top: 100%;
+}
+/* ABOUT MY */
+
+
+.about{
+    background-color:#3C2313;
+}
+.box-line{
+    display: flex;
+    
+}
+.border-circle{
+    position: relative;
+    width: 66px;
+    height: 66px;
+    bottom: 1px;
+    background-color: #786960;
+    border-radius: 50px;
+    margin: 23px 12px 20px 70px;
+}
+.circle{
+    position: absolute;
+    width: 58px;
+    height: 57px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 29.5px;
+    background-color: #8A8787;
+}
+.img-about-location{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+.img-about-phone{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+.img-about-email{
+    position: absolute;
+    left: 9px;
+    top: 11px;
+}
+div.box-line p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+div.box-line i{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+/* derechos */
+
+div.Derechos{
+    background: #222222;
+    padding: 4px 419px;
+}
+div.Derechos p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    width: 186px;
+    height: 12px;
 }

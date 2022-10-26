@@ -29,10 +29,10 @@
             </div>
             <div class="nav-menu">
                 <ul>
-                    <li><img src="/img/patita-menu.png" alt="foot">Categorías</li>
-                    <li><img src="/img/patita-menu.png" alt="foot">Pets</li>
-                    <li><img src="/img/patita-menu.png" alt="foot">Nosotros</li>
-                    <li><img src="/img/patita-menu.png" alt="foot">Contactanos</li>
+                    <li><a href=""><img src="/img/patita-menu.png" alt="foot">Categorías</a></li>
+                    <li><a href=""><img src="/img/patita-menu.png" alt="foot">Pets</a></li>
+                    <li><a href=""><img src="/img/patita-menu.png" alt="foot">Nosotros</a></li>
+                    <li><a href=""><img src="/img/patita-menu.png" alt="foot">Contactanos</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,31 +41,30 @@
     <main>
         <section class="slide">
             <article class="slide-background">
-                <!-- <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt=""> -->
                 <div class="slide-text">
                     <div class="rectangle5">
-                        <p>¡Es un placer tenerte aquí!</p>
+                        <span>¡Es un placer tenerte aquí!</span>
                     </div> 
                     <p>¡Comederos en descuento!</p>
                 </div>
                 <button type="button">
-                    <a href="" target="_blank">COMEDEROS</a>
+                    COMEDEROS
                 </button>
             </article>
         </section>
-        <section>
-            <div>
-                <img src="img/pawprint 1.png" alt="">
-                <h1>Productos Destacados</h1>
-                <p><a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a> </p>
-            </div>
+        <div>
+            <img src="img/pawprint 1.png" alt="">
+            <h1>Productos Destacados</h1>
+            <p><a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a> </p>
+        </div>
+        <section class="section-2">
             <article>
                 <img src="img/churrasquito.png" alt="Imagen producto 1">
                 <p>Juguete Churrasquito</p>
                 <p>$150</p>
             </article>
             <article>
-                <img src="img/comedero.png" alt="Imagen Producto 2">
+                <img src="img/comedero.svg" alt="Imagen Producto 2">
                 <p>Comedero para perro</p>
                 <p>$250</p>
             </article>
@@ -75,7 +74,7 @@
                 <p>$650</p>
             </article>
         </section>
-        <nav>
+        <div class="contactanos">
             <form action="post">
                 <label for="">
                     <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
@@ -93,14 +92,34 @@
                     <button type="submit">Enviar</button>
                 </label>
             </form>
-        </nav>
+        </div>
     </main>
     <footer>
-        <div>
-            
+        <div class="suscribcion">
+            <img src="img/enviar-correo.png" alt="enviar-correo">
+            <span>
+                Suscríbete para más novedades
+            </span>
+            <form action="post">
+                <label for="">
+                    <input type="text" name="email" placeholder="Ingresá tu correo electronico">
+                    <button type="submit">Suscribirme</button>
+                </label>
+            </form>
         </div>
-        <div>
-            <span></span>
+        <div class="about">
+            <div class="box-line">
+                <div class="border-circle"><div class="circle"><img src="img/location.png" alt="location" class="img-about-location"></div></div><div><p>Localidad</p><i>Calle - provincia</i></div>
+            </div>
+            <div class="box-line">
+                <div class="border-circle"><div class="circle"><img src="img/phone-call.png" alt="phone-call" class="img-about-phone"></div></div><div><p>Teléfono</p><i>Número de teléfono</i></div>
+            </div>
+            <div class="box-line">
+                <div class="border-circle"><div class="circle"><img src="img/email.png" alt="email" class="img-about-email"></div></div><div><p>Correo Electronico</p><i>Dirección de correo</i></div>
+            </div>
+        </div>
+        <div class="Derechos">
+            <p>Todos los derechos reservados Front End</p>
         </div>
     </footer>
 </body>
