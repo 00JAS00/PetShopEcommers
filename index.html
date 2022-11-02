@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <title>PetShop</title>
 </head>
 <body>  
@@ -65,17 +68,17 @@
             <article>
                 <img src="img/churrasquito.png" alt="Imagen producto 1">
                 <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                $150
             </article>
             <article>
                 <img src="img/comedero.svg" alt="Imagen Producto 2">
-                <p>Comedero para perro</p>
-                <p>$250</p>
+                <p >Comedero para perro</p>
+                $250
             </article>
             <article>
                 <img src="img/Huesito.png" alt="Imagen Producto 3">
                 <p>Huesito Jugete</p>
-                <p>$650</p>
+                $650
             </article>
             
         </section>
@@ -86,34 +89,58 @@
                     <input type="email" name="Email" placeholder="Ingresa tu correo electronico" class="form-inputs">
                     <input type="number" name="Telefono" placeholder="Telefono" class="form-inputs">
                     <div>
-                        <button type="reset" class="form-btn">Resetear</button>
-                        <button type="submit" class="form-btn">Enviar</button>
+                        <button type="reset" class="form-btn1">Resetear</button>
+                        <button type="submit" class="form-btn2">Enviar</button>
                     </div>
             </form>
         </div>
     </main>
+
+                <!--FOOTER  -->
+
     <footer>
         <div class="suscribcion">
-            <img src="img/enviar-correo.png" alt="enviar-correo">
-            <span>
-                Suscríbete para más novedades
-            </span>
+            <div class="correo-sub">
+                <img src="img/enviar-correo.png" alt="enviar-correo">
+                <span>Suscríbete para más novedades</span>
+            </div>
+            
             <form action="post">
-                <label for="">
                     <input type="text" name="email" placeholder="Ingresá tu correo electronico">
                     <button type="submit">Suscribirme</button>
-                </label>
             </form>
         </div>
         <div class="about">
-            <div class="box-line">
-                <div class="border-circle"><div class="circle"><img src="img/location.png" alt="location" class="img-about-location"></div></div><div><p>Localidad</p><i>Calle - provincia</i></div>
+            <div class="box-iconos">
+                <div class="box-line">
+                    <div class="border-circle"><div class="circle">
+                        <img src="img/location.png" alt="location" class="img-about-location">
+                    </div></div>
+                    <div><p>Localidad</p><i>Calle - provincia</i>
+                    </div>
+                </div>
+                <div class="box-line">
+                    <div class="border-circle"><div class="circle">
+                        <img src="img/phone-call.png" alt="phone-call" class="img-about-phone">
+                    </div></div>
+                    <div><p>Teléfono</p><i>Número de teléfono</i>
+                    </div>
+                </div>
+                <div class="box-line">
+                    <div class="border-circle"><div class="circle">
+                        <img src="img/email.png" alt="email" class="img-about-email">
+                    </div></div>
+                    <div><p>Correo Electronico</p><i>Dirección de correo</i>
+                    </div>
+                </div>
             </div>
-            <div class="box-line">
-                <div class="border-circle"><div class="circle"><img src="img/phone-call.png" alt="phone-call" class="img-about-phone"></div></div><div><p>Teléfono</p><i>Número de teléfono</i></div>
-            </div>
-            <div class="box-line">
-                <div class="border-circle"><div class="circle"><img src="img/email.png" alt="email" class="img-about-email"></div></div><div><p>Correo Electronico</p><i>Dirección de correo</i></div>
+            
+            <div class="footer-logo">
+                <a href="" target="_blank">
+                    <img src="img/Cat.png" alt="cat">
+                    <span>Front</span>Cat&Dog
+                    <img src="img/Dog.png" alt="Dog">
+                </a>
             </div>
         </div>
         <div class="Derechos">
