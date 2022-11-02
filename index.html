@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +13,15 @@
 <body>  
     <header>
         <div class="top">
-                <span>Grandes ofertas en comederos</span> 
-                <ul>
-                    <li>Español</li>
-                    <li>ARG$</li>
-                </ul>
+                <div class="top-left-side">
+                    <span>Grandes ofertas en comederos</span>
+                </div>
+                <div class="top-lista">
+                    <ul>
+                        <li>Español</li>
+                        <li>ARG$</li>
+                    </ul>
+                </div>
         </div>
         <nav class="nav">
             <div class="nav-logo">
@@ -44,19 +48,19 @@
                 <div class="slide-text">
                     <div class="rectangle5">
                         <span>¡Es un placer tenerte aquí!</span>
-                    </div> 
-                    <p>¡Comederos en descuento!</p>
+                    </div>
+                        <p>¡Comederos en descuento!</p>
+                        <a href="#" target="_blank"><button type="button">COMEDEROS</button></a>
+                    </div>
                 </div>
-                <button type="button">
-                    COMEDEROS
-                </button>
             </article>
         </section>
-        <div>
+        <div class="productos-destacados">
             <img src="img/pawprint 1.png" alt="">
             <h1>Productos Destacados</h1>
             <p><a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a> </p>
         </div>
+
         <section class="section-2">
             <article>
                 <img src="img/churrasquito.png" alt="Imagen producto 1">
@@ -73,24 +77,18 @@
                 <p>Huesito Jugete</p>
                 <p>$650</p>
             </article>
+            
         </section>
         <div class="contactanos">
             <form action="post">
-                <label for="">
-                    <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
-                </label>
-                <label for="">
-                    <input type="text" name="Ingresa tu correo electronico" placeholder="Ingresa tu correo electronico">
-                </label>
-                <label for="">
-                    <input type="text" name="Telefono" placeholder="Telefono">
-                </label>
-                <label for="">
-                    <button type="reset">Resetear</button>
-                </label>
-                <label for="">
-                    <button type="submit">Enviar</button>
-                </label>
+                    <p>contáctanos</p>
+                    <input type="text" name="Nombre" placeholder="Nombre y Apellido" class="form-inputs">
+                    <input type="email" name="Email" placeholder="Ingresa tu correo electronico" class="form-inputs">
+                    <input type="number" name="Telefono" placeholder="Telefono" class="form-inputs">
+                    <div>
+                        <button type="reset" class="form-btn">Resetear</button>
+                        <button type="submit" class="form-btn">Enviar</button>
+                    </div>
             </form>
         </div>
     </main>
