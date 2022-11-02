@@ -1,9 +1,10 @@
 *{
     
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
+    
     /* outline: 1px solid red; */
 }
 html{
@@ -11,6 +12,10 @@ html{
     background: #FFFFFF;
     width: 100%;
     height: 100%;
+    font-weight: 400;
+}
+body{
+    font-size: 16px;
 }
 
 
@@ -29,8 +34,8 @@ header{
     flex-direction: row;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
     color: #F3F3F3;
     background: #222222;
 }
@@ -38,8 +43,8 @@ header{
     display: flex;
 }
 .top-lista{
-    margin-left: 10px;
-    margin-right:10px;
+    margin-left: 0.6rem;
+    margin-right:0.6rem;
 }
 .top-lista ul{
     display: flex;
@@ -60,33 +65,33 @@ header{
     align-items: center;
 }
 div.nav-menu{
-    font-size: 13px;
-    font-weight: 400px;
-    line-height: 15px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.9rem;
     font-style: normal;
 }
 .nav-menu ul{
     display: flex;
-    gap: 10px;
+    gap: 0.6rem;
     list-style: none;
-    padding: 24px 12px;
+    padding: 1.5rem 0.8rem;
 }
 .nav-menu a{
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400px;
-    line-height: 15px;
+    line-height: 0.9rem;
     font-style: normal;
     color: #F3F3F3;
 }
 div.nav-menu img{
-    width: 15px;
-    height: 14px;
+    width: 0.9rem;
+    height: 0.9rem;
 }
 div.nav-logo a{
-    font-weight: 700px;
-    font-size: 20px;
-    line-height: 23.44px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -99,7 +104,6 @@ div.nav-logo span{
 
 .slide-background{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
-    position: relative;
     background-size: cover;
     width: 100%;
     height: 409px;
@@ -110,24 +114,24 @@ div.nav-logo span{
     
 }
 .slide-text{
-    width: 365px;
-    height: 85px;
+    width: 22.8rem;
+    height: 5.31rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.6rem;
 
 }
 .slide-text button{
     background: #F0A83E;
-    border-radius: 5px;
+    border-radius: 0.31rem;
     border: none;
     cursor: pointer;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 15px 23px;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    padding: 0.9rem 1.4rem;
 }
 .slide-text a{
     
@@ -137,13 +141,13 @@ div.nav-logo span{
     height: 54px;
     background: #FFFFFF;
     border-radius: 5px;
-    padding: 9px 10px 10px;
+    padding: 0.56rem 0.6rem 0.6rem;
     width: 100%;
 }
 .rectangle5 span{
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.68rem;
     line-height: 35px;
     text-align: center;
 
@@ -156,13 +160,13 @@ color: #3C2313;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    gap: 0.6rem;
+    padding-top: 1.56rem;
+    padding-bottom: 1.56rem;
 }
 .productos-destacados img{
-    width: 67px;
-    height: 71px;
+    width: 4.1rem;
+    height: 4.4rem;
 }
 .productos-destacados a{
     text-decoration: none;
@@ -170,15 +174,27 @@ color: #3C2313;
 .section-2{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1.56rem;
+    padding-bottom: 1.56rem;
 }
 
 .section-2 article{
     background-color:#FBFAF6;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    text-align: center;
+    color: #F0A83E;
+}
+.section-2 article p{
+    font-weight: 700;
+    text-align: center;
+    color: #3c1313;
+}
+.precio p{
+    
 }
 
 /* CONTACTANOS */
@@ -200,8 +216,8 @@ color: #3C2313;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 53px;
-    padding-bottom: 39px;
+    padding-top: 3.1rem;
+    padding-bottom: 2.4rem;
     gap: 0.625rem;
     
     
@@ -210,14 +226,14 @@ color: #3C2313;
 
 .form-inputs{
     background: #3C2313;
-    border-radius: 15px;
-    font-size: 9px;
-    line-height: 11px;
+    border-radius: 0.9rem;
+    font-size: 0.56rem;
+    line-height: 0.68rem;
     color: #FFFFFF;
     padding-left: 0.875rem;
     padding-right: 0.875rem;;
-    width: 340px;
-    height: 40px;
+    width: 21.2rem;
+    height: 2.5rem;
     border: none;
 }
 .form-inputs::placeholder{
@@ -227,6 +243,32 @@ color: #3C2313;
     color: #FFFFFF;
 }
 
+.form-btn1{
+    width: 6.8rem;
+    height: 2.1rem;
+    border-radius: 15px;
+    border-style: none;
+    background: #8A8787;
+    cursor: pointer;
+
+}
+.form-btn1,.form-btn2{
+    font-size: 1rem;
+    line-height: 1.18rem;
+    color: #FFFFFF;
+}
+.form-btn2{
+    width: 6.8rem;
+    height: 2.1rem;
+    border-radius: 15px;
+    border-style: none;
+    background: #F0A83E;
+    cursor: pointer;
+    
+    
+
+}
+
 
 /* FOOTER */
 /* SUSCRIBCION */
@@ -234,78 +276,123 @@ color: #3C2313;
 
 footer div.suscribcion{
     background-color: rgba(240, 168, 62, 1);
-    top: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.6rem 1.5rem;
+}
+
+.correo-sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+.suscribcion form input{
+    width: 17rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-radius: 1rem;
+    border-style: none;
+}
+.suscribcion form button{
+    width: 4.3rem;
+    height: 2.1rem;
+    background: #3C2313;
+    border-radius: 1rem;
+    border-style: none;
+    font-weight: 700;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+    color: #FFFFFF;
+    padding: 0.6rem;
+}
+.suscribcion form button::placeholder{
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+    color: #FFFFFF;
+    padding: 0.9rem;
 }
 /* ABOUT MY */
 
 
 .about{
     background-color:#3C2313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .box-line{
     display: flex;
-    
+    flex-direction: row;
 }
+        /* ICONOS Y CIRCULOS */
 .border-circle{
     position: relative;
-    width: 66px;
-    height: 66px;
-    bottom: 1px;
+    width: 4.1rem;
+    height: 4.1rem;
+    bottom: 0.06rem;
     background-color: #786960;
-    border-radius: 50px;
-    margin: 23px 12px 20px 70px;
+    border-radius: 3.1rem;
+    margin: 1.4rem 0.8rem 1.25rem 4.3rem;
 }
 .circle{
     position: absolute;
-    width: 58px;
-    height: 57px;
-    left: 4px;
-    bottom: 4px;
-    border-radius: 29.5px;
+    width: 3.6rem;
+    height: 3.6rem;
+    left: 0.25rem;
+    bottom: 0.25rem;
+    border-radius: 1.84rem;
     background-color: #8A8787;
 }
 .img-about-location{
     position: absolute;
-    left: 6px;
-    top: 6px;
+    left: 0.3rem;
+    top: 0.3rem;
 }
 .img-about-phone{
     position: absolute;
-    left: 6px;
-    top: 6px;
+    left: 0.3rem;
+    top: 0.3rem;
 }
 .img-about-email{
     position: absolute;
-    left: 9px;
-    top: 11px;
+    left: 0.56rem;
+    top: 0.68rem;
 }
 div.box-line p{
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1.25rem;
+    line-height: 1.4rem;
     color: #FFFFFF;
-    margin-top: 23px;
+    margin-top: 1.4rem;
 }
 div.box-line i{
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
     color: #8A8787;
 }
 /* derechos */
 
 div.Derechos{
     background: #222222;
-    padding: 4px 419px;
+    padding: 0.3rem 26rem;
+    width: 100%;
 }
 div.Derechos p{
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
     color: #FFFFFF;
-    width: 186px;
-    height: 12px;
+    width: 100%;
+    height: 0.8rem;
 }
