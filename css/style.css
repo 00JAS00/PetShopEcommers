@@ -4,18 +4,29 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 html{
     position: absolute;
     background: #FFFFFF;
-    width: 1024px;
+    width: 100%;
+    height: 100%;
 }
-/* top */
 
 
+/* header */
+
+header{
+    color: rgb(255, 255, 255);
+}
+    
+    /* top */
 .top{
     /* Rectangle 1 */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -23,20 +34,42 @@ html{
     color: #F3F3F3;
     background: #222222;
 }
-/* header */
-
-
-header{
-    color: rgb(255, 255, 255);
+.top-left-side{
+    display: flex;
 }
+.top-lista{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.top-lista ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+
+ /* LOGO AND NAVBAR */
+
+
 .nav{
     background-color:#F0A83E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 div.nav-menu{
     font-size: 13px;
     font-weight: 400px;
     line-height: 15px;
     font-style: normal;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 24px 12px;
 }
 .nav-menu a{
     text-decoration: none;
@@ -60,28 +93,52 @@ div.nav-logo a{
 div.nav-logo span{
     color:rgba(60, 35, 19, 1);
 }
+
+
 /* main */
 
-.slide{
-    position: relative;
-}
 .slide-background{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     position: relative;
     background-size: cover;
-    width: 1025px;
+    width: 100%;
     height: 409px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
     
 }
-.rectangle5{
-    position: absolute;
+.slide-text{
     width: 365px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.slide-text button{
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 23px;
+}
+.slide-text a{
+    
+}
+
+.rectangle5{
     height: 54px;
-    left: 648px;
-    top: 237px;
     background: #FFFFFF;
     border-radius: 5px;
     padding: 9px 10px 10px;
+    width: 100%;
 }
 .rectangle5 span{
     font-style: normal;
@@ -92,12 +149,85 @@ div.nav-logo span{
 
 color: #3C2313;
 }
+
+/* PRODUCTOS DESTACADOS */
+
+.productos-destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.productos-destacados img{
+    width: 67px;
+    height: 71px;
+}
+.productos-destacados a{
+    text-decoration: none;
+}
 .section-2{
     display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+
 .section-2 article{
-    background-color:#E5E5E5;
+    background-color:#FBFAF6;
 }
+
+/* CONTACTANOS */
+
+.contactanos{
+    
+}
+
+.contactanos p{
+    color: #3C2313;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.563em;
+    line-height: 1.813em;
+    
+}
+
+.contactanos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 53px;
+    padding-bottom: 39px;
+    gap: 0.625rem;
+    
+    
+}
+
+
+.form-inputs{
+    background: #3C2313;
+    border-radius: 15px;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;;
+    width: 340px;
+    height: 40px;
+    border: none;
+}
+.form-inputs::placeholder{
+    font-size: 0.563rem;
+    line-height: 0.688rem;
+    padding-left: 0.875rem;
+    color: #FFFFFF;
+}
+
+
 /* FOOTER */
 /* SUSCRIBCION */
 
